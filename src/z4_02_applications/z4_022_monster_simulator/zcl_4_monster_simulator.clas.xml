@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_4_MONSTER_SIMULATOR</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Monster Simulator</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Monster is no longer a monster!</ENTRY>
+     <LENGTH>62</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Violated Contract Precondition</ENTRY>
+     <LENGTH>60</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Violated Contract Postcondition</ENTRY>
+     <LENGTH>62</LENGTH>
+    </item>
+   </TPOOL>
+   <LINES>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;Business Process&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>Baron F then makes the new monster. He needs to know what ingredients</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>need to go into the new monster. He would also like to be able to</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>anticipate future customer requirements and so be pro-active. For this a</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>“Monster Simulator” application is needed in SAP.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;Resulting User Story&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>AS A =&gt; Mad Scientist</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>I NEED TO =&gt; Dynamically calculate the Monster BOM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>SO I CAN =&gt; Know the best ingredients to use to build a new Monster</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;Resulting Application&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>An application to calculate a Monster BOM based on the customer</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>requirements in an order =&gt; The Monster Simulator</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;HINTS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;FURTHER_SOURCES_OF_INF&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+   </LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MD_BOLTS_IN_NECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Number of Bolts in Neck</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MD_COLOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Monster Color</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MD_FLUFFINESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Monster Fluffiness Factor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MD_SCARINESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Monster Scariness</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_LOGGER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Monster Logging Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_MONSTER_MAKING_MACHINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Monster Making Machine</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PERS_LAYER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Monster Simulator Persistency Layer</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

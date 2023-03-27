@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_4_MONSTER_MODEL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Monster Model Interface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ACTION_HOWL_AT_THE_MOON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>@15@Howl at the Moon</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ARE_VALUES_DERIVATION_RELEVANT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Are header values relevant for derivation?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DERIVE_HEADER_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>@4M@Derive some header fields values based upon others</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DERIVE_ITEM_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>@4M@Derive some item fields values based upon others</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INVITE_TO_PARTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Invite Monster to Party</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_DERIVATION_RELEVANT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Has a field changed that fill need derived values changing?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_SCARY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return TRUE if the Monster is Scary</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MTT_MONSTER_HEADERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Monster Headers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MTT_MONSTER_ITEMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Monster Items</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALIDATE_ACTION_HOWL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>@38@Validate Howl Action</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALIDATE_MONSTER_HEADER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>@38@Validate Consistency of Monster Header</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>WANTS_TO_BLOW_UP_WORLD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Does the Monster want to Blow Up the Entire World?</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
